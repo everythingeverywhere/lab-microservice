@@ -1,8 +1,13 @@
-name: Markdown Sample
+name: Getting Started with Spring Cloud Gateway
 
 modules:
     activate:
-    - workshop-overview
-    - setup-environment
-    - exercises/01-sample-content
+    - exercises/workshop-guide
+    - exercises/01-intro
+    - exercises/02-rest-resc
+    - exercises/03-resc-cont
+    - exercises/04-build-jar
+    - exercises/05-test-rest
     - workshop-summary
+
+

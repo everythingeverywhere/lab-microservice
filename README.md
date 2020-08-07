@@ -1,4 +1,4 @@
-LAB - Markdown Sample
+LAB - Spring Microservices
 =====================
 
-Sample workshop content using Markdown formatting for pages.
+An eduk8s workshop for begginers on Spring microservices

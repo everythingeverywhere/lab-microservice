@@ -1,12 +1,18 @@
 modules:
-    workshop-overview:
-        name: Workshop Overview
-        exit_sign: Setup Environment
-    setup-environment:
-        name: Setup Environment
-        exit_sign: Start Workshop
-    exercises/01-sample-content:
-        name: Sample Content
+    exercises/workshop-guide:
+        name: Introduction 
+        exit_sign: Building an API Gateway
+    exercises/01-intro:
+        name: Microservices
+        exit_sign: Creating a Simple Route        
+    exercises/02-rest-resc:
+        name: Create a Resource Representation Class
+    exercises/03-resc-cont:
+        name: Create a Resource Controller 
+    exercises/04-build-jar:
+        name: Build an executable JAR  
+    exercises/05-test-rest:
+        name: Build an executable JAR 
     workshop-summary:
         name: Workshop Summary
         exit_sign: Finish Workshop
