@@ -7,7 +7,7 @@ touch ~/gs-rest-service/initial/src/main/java/com/example/restservice/GreetingCo
 
 
 ```copy
-package com.example.restservice`;
+package com.example.restservice;
 
 import java.util.concurrent.atomic.AtomicLong;
 
