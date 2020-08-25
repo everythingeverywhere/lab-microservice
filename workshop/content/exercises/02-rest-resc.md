@@ -13,7 +13,12 @@ The service will handle `GET` requests for `/greeting`, optionally with a `name`
 
 The `id` field is a unique identifier for the greeting, and `content` is the textual representation of the greeting.
 
-To model the greeting representation, create a **Resource Representation Class**. To do so, provide a plain old Java object with fields, constructors, and accessors for the `id` and `content` data, as the following listing (from `src/main/java/com/example/restservice/Greeting.java`) shows:
+To model the greeting representation, create a **Resource Representation Class**. To do so, provide a plain old Java object with fields, constructors, and accessors for the `id` and `content` data, as the following listing (from `src/main/java/com/example/restservice/Greeting.java` ) shows:
+
+```execute-1
+touch ~/gs-rest-service/initial/src/main/java/com/example/restservice/Greeting.java
+```
+
 
 ```copy
 package com.example.restservice;
