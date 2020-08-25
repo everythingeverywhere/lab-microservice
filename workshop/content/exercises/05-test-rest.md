@@ -2,7 +2,7 @@ Test the Service
 Now that the service is up, try your service:
 
 ```execute-2
-http://localhost:8080/greeting`,
+curl http://localhost:8080/greeting
 ```
 
 You should see:
@@ -14,7 +14,7 @@ You should see:
 Provide a name query string parameter by visiting 
 
 ```execute-2
-curlhttp://localhost:8080/greeting?name=User
+curl http://localhost:8080/greeting?name=User
 ```
 Notice how the value of the `content` attribute changes from `Hello, World!` to `Hello, User!`, as the following listing shows:
 
