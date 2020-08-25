@@ -6,5 +6,5 @@ spec:
   workshops:
   - name: lab-microservice
     capacity: 1
-    expires: 60m
+    expires: 20m
     orphaned: 5m
