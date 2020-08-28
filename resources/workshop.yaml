@@ -7,7 +7,7 @@ spec:
   description: A sample workshop using Markdown
   vendor: eduk8s.io
   difficulty: beginner
-  duration: 20m
+  duration: 30m
   url: github.com/everythingeverywhere/lab-microservice
   content:
     image: quay.io/eduk8s/jdk11-environment:master

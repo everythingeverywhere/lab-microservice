@@ -26,6 +26,7 @@ Clone the source repository for this guide using Git by clicking the running man
 
 ```execute-1
 git clone https://github.com/spring-guides/gs-rest-service.git
+```
 
 ```execute-1
 cd gs-rest-service/initial
