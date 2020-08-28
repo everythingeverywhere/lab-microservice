@@ -13,10 +13,13 @@ spec:
     image: quay.io/eduk8s/jdk11-environment:master
     files: github.com/everythingeverywhere/lab-microservice
   session:
-    budget: medium
+    budget: large
+    resources:
+      memory: 2Gi
     applications:
       terminal:
         enabled: true
         layout: split
       editor:
         enabled: true
+    

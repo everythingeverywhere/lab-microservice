@@ -19,8 +19,16 @@ To model the greeting representation, create a **Resource Representation Class**
 touch ~/gs-rest-service/initial/src/main/java/com/example/restservice/Greeting.java
 ```
 
+Open the file in the text editor:
 
-```copy
+```editor:open-file
+file: ~/gs-rest-service/initial/src/main/java/com/example/restservice/Greeting.java
+```
+
+
+```editor:append-lines-to-file
+file: ~/gs-rest-service/initial/src/main/java/com/example/restservice/Greeting.java
+text: |
 package com.example.restservice;
 
 public class Greeting {
