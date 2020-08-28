@@ -16,28 +16,29 @@ The `id` field is a unique identifier for the greeting, and `content` is the tex
 To model the greeting representation, create a **Resource Representation Class**. To do so, provide a plain old Java object with fields, constructors, and accessors for the `id` and `content` data, as the following listing (from `src/main/java/com/example/restservice/Greeting.java` ) shows:
 
 
-```editor:append-lines-to-file file: ~/gs-rest-service/initial/src/main/java/com/example/restservice/Greeting.java text: |
+```editor:append-lines-to-file
+file: ~/gs-rest-service/initial/src/main/java/com/example/restservice/Greeting.java 
+text: |
+	package com.example.restservice;
 
-package com.example.restservice;
+	public class Greeting {
 
-public class Greeting {
+		private final long id;
+		private final String content;
 
-	private final long id;
-	private final String content;
+		public Greeting(long id, String content) {
+			this.id = id;
+			this.content = content;
+		}
 
-	public Greeting(long id, String content) {
-		this.id = id;
-		this.content = content;
+		public long getId() {
+			return id;
+		}
+
+		public String getContent() {
+			return content;
+		}
 	}
-
-	public long getId() {
-		return id;
-	}
-
-	public String getContent() {
-		return content;
-	}
-}
 ```
 
 Open the file in the text editor:
