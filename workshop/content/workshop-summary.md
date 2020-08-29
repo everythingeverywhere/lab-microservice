@@ -1,6 +1,6 @@
-Congratulations! You have just developed a RESTful web service with Spring! 
+Congratulations! You have just developed a RESTful web service with 
 
-[spring.io](./spring-logo.svg)
+![spring.io](./exercises/spring-logo.svg)
 
 See Also
 The following guides may also be helpful:
