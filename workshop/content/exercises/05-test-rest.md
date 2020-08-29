@@ -1,4 +1,3 @@
-Test the Service
 Now that the service is up, try your service:
 
 ```execute-2

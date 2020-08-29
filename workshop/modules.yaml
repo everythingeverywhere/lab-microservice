@@ -12,7 +12,7 @@ modules:
     exercises/04-build-jar:
         name: Build an executable JAR  
     exercises/05-test-rest:
-        name: Build an executable JAR 
+        name: Test the Service
     workshop-summary:
         name: Workshop Summary
         exit_sign: Finish Workshop
