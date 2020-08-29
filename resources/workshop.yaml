@@ -10,7 +10,7 @@ spec:
   duration: 30m
   url: github.com/everythingeverywhere/lab-microservice
   content:
-    image: quay.io/eduk8s/jdk11-environment:master
+    image: jdk11-environment:*
     files: github.com/everythingeverywhere/lab-microservice
   session:
     budget: large
