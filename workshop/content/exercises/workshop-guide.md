@@ -24,10 +24,10 @@ The workshop uses these action blocks for various purposes. Anytime you see such
 
 Clone the source repository for this guide using Git by clicking the running man: 
 
-```execute-1
+```execute-all
 git clone https://github.com/spring-guides/gs-rest-service.git
 ```
 
-```execute-1
+```execute-all
 cd gs-rest-service/initial
 ```

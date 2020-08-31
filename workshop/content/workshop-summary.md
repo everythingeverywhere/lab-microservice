@@ -1,4 +1,4 @@
-Congratulations! You have just developed a RESTful web service with 
+**Congratulations! You have just developed a RESTful web service with Spring!** 
 
 ![spring.io](./exercises/spring-logo.svg)
 ![spring.io](./exercises/microservices.png)

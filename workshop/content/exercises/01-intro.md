@@ -22,3 +22,7 @@ Spring Boot’s optional instrumentation framework, Micrometer, sends metrics st
 
 ##### Microservices on Cloud Foundry
 The small, stateless nature of microservices makes them ideal for horizontal scaling. Platforms like TAS and PKS can provide scalable infrastructure to match, with and greatly reduce your administrative overhead. Using cloud connectors, you can also consume multiple backend services with ease.
+
+##### Building a Restful Web Service
+
+In the next section we will begin building a Restful Web Service with Spring. This will give you a good introduction on one of the many ways to make microservices with Spring.

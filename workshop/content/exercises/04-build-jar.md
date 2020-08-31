@@ -3,16 +3,17 @@ You can run the application from the command line with Gradle or Maven. You can 
 
 If you use Gradle, you can run the application by using `./gradlew bootRun`. Alternatively, you can build the JAR file by using `./gradlew build` and then run the JAR file, as follows:
 
-`java -jar build/libs/gs-rest-service-0.1.0.jar`
+Example only: `java -jar build/libs/gs-rest-service-0.1.0.jar`
 
-If you use Maven, you can run the application by using `./mvnw spring-boot:run`. Alternatively, you can build the JAR file with `./mvnw clean package` and then run the JAR file, as follows: `java -jar target/gs-rest-service-0.1.0.jar`
+If you use Maven, you can run the application by using `./mvnw spring-boot:run`. Alternatively, you can build the JAR file with `./mvnw clean package` and then run the JAR file, as follows: 
 
-The steps described here create a runnable JAR. You can also build a classic WAR file.
-Logging output is displayed. The service should be up and running within a few seconds.
+Example only: `java -jar target/gs-rest-service-0.1.0.jar`
 
 > The steps described here create a runnable JAR. You can also [build a classic WAR file](https://spring.io/guides/gs/convert-jar-to-war/).
 
-Build your application with maven:
+The Spring Boot Maven plugin includes a run goal that can be used to quickly compile and run your application. Applications run in an exploded form, as they do in your IDE. 
+
+The following example shows a typical Maven command to run a Spring Boot application:
 
 ```execute-1
 mvn spring-boot:run
