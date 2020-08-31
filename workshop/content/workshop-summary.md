@@ -3,8 +3,20 @@
 ![spring.io](./exercises/spring-logo.svg)
 ![spring.io](./exercises/microservices.png)
 
-See Also
-The following guides may also be helpful:
+## **For more Spring :**
+
+- For the instructions to this lab, see [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
+
+- For the next step, see [Consuming a RESTful Web Service](https://spring.io/guides/gs/consuming-rest/)
+
+- To learn about other Spring projects!  [the Spring website](spring.io)
+
+
+
+---
+
+
+The following REST guides may also be helpful:
 
 - [Accessing GemFire Data with REST](https://spring.io/guides/gs/accessing-gemfire-data-rest/)
 - [Accessing MongoDB Data with REST](https://spring.io/guides/gs/accessing-mongodb-data-rest/)

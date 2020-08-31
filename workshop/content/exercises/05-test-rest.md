@@ -13,12 +13,12 @@ You should see:
 Provide a name query string parameter by visiting 
 
 ```execute-2
-curl http://localhost:8080/greeting?name=User
+curl http://localhost:8080/greeting?name=SpringOne
 ```
 Notice how the value of the `content` attribute changes from `Hello, World!` to `Hello, User!`, as the following listing shows:
 
 ```
-{"id":2,"content":"Hello, User!"}
+{"id":2,"content":"Hello, SpringOne!"}
 ```
 This change demonstrates that the `@RequestParam` arrangement in `GreetingController` is working as expected. The `name` parameter has been given a default value of `World` but can be explicitly overridden through the query string.
 
