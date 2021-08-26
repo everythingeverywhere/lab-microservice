@@ -3,8 +3,8 @@ kind: Workshop
 metadata:
   name: lab-microservice
 spec:
-  title: Markdown Sample
-  description: A sample workshop using Markdown
+  title: Spring Microservices
+  description: Spring Microservices getting started
   vendor: eduk8s.io
   difficulty: beginner
   duration: 30m
